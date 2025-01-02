@@ -1,0 +1,21 @@
+{
+  "name": "call-routing-framework",
+  "version": "1.0.0",
+  "description": "National Call Routing Framework for combating digital arrests",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "winston": "^3.3.3",
+    "elasticsearch": "^16.7.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  }
+}
